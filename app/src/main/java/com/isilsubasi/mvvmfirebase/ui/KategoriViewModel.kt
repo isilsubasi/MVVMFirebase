@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 class KategoriViewModel : ViewModel(){
 
-    private  val KategoriRepository: KategoriRepository = KategoriRepository()
+    private  val kategoriRepository: KategoriRepository = KategoriRepository()
 
     init {
         kategorileriGetir()
@@ -24,7 +24,7 @@ class KategoriViewModel : ViewModel(){
 
     fun kategorileriGetir()  = viewModelScope.launch {
 
-        KategoriRepository.kategorileriGetir()
+        kategoriRepository.kategorileriGetir()
 
             .asLiveData(viewModelScope.coroutineContext).observeForever {
 
