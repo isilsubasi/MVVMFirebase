@@ -1,23 +1,24 @@
-{
-	"Kategoriler": [{
 
-			"KategoriIsmi": "Audi",
+	 [
+		 {
+
+			"kategoriIsmi": "Audi",
 			"imageUrl": "https://raw.githubusercontent.com/isilsubasi/MVVMFirebase/main/1.png"
 		},
 
 		{
 
-			"KategoriIsmi": "Lamborgini",
+			"kategoriIsmi": "Lamborgini",
 			"imageUrl": "https://raw.githubusercontent.com/isilsubasi/MVVMFirebase/main/2.png"
 		},
 		{
 
-			"KategoriIsmi": "Mercedes",
+			"kategoriIsmi": "Mercedes",
 			"imageUrl": "https://raw.githubusercontent.com/isilsubasi/MVVMFirebase/main/3.png"
 		},
 		{
 
-			"KategoriIsmi": "Opel",
+			"kategoriIsmi": "Opel",
 			"imageUrl": "https://raw.githubusercontent.com/isilsubasi/MVVMFirebase/main/4.png"
 		}
 
@@ -25,4 +26,3 @@
 
 	]
 
-}
