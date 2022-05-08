@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531220331196",
+    "project_id": "mvvmfirebase-b6b57",
+    "storage_bucket": "mvvmfirebase-b6b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531220331196:android:52a8ae566ed451da246eb9",
+        "android_client_info": {
+          "package_name": "com.isilsubasi.mvvmfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531220331196-r634580c2iffq5fsok26g4gaggthatrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOWxw-pWj1DXPwEffNLUEz80D9U_gFPbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531220331196-r634580c2iffq5fsok26g4gaggthatrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
