@@ -9,10 +9,10 @@ class KategoriRepository {
 
     init {
         //Burda artık hangisinden diye soruyor bize?
-        kategoriDataSource=KategoriRetrofitDataSource()
+        kategoriDataSource=KategoriFirebaseDataSource()
     }
 
-    fun kategorileriGetir(): Flow<Resource<Kategoriler>>
+    fun kategorileriGetir(): Flow<Resource<List<KategoriItem>>>
     {
         return kategoriDataSource!!.kategorileriGetir()
     }

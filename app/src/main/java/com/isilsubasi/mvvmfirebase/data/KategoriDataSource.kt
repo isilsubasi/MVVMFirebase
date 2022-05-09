@@ -4,6 +4,6 @@ import com.isilsubasi.mvvmfirebase.util.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface KategoriDataSource {
-    fun kategorileriGetir(): Flow<Resource<Kategoriler>>
+    fun kategorileriGetir(): Flow<Resource<List<KategoriItem>>>
 
 }

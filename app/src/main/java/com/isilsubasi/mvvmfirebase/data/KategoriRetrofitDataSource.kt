@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
 class KategoriRetrofitDataSource : KategoriDataSource{
-    override fun kategorileriGetir(): Flow<Resource<Kategoriler>> = flow{
+    override fun kategorileriGetir(): Flow<Resource<List<KategoriItem>>> = flow{
         try {
             emit(Resource.Loading())
 

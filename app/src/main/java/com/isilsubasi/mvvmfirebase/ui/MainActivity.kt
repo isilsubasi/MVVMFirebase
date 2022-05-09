@@ -2,6 +2,7 @@ package com.isilsubasi.mvvmfirebase.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.isilsubasi.mvvmfirebase.R
@@ -24,11 +25,7 @@ class MainActivity : AppCompatActivity() {
 
             kategorilerLiveData?.observe(this@MainActivity, Observer {
 
-                it.run {
-
-
-
-                }
+                Log.e("Isil","Data : " + it.toString())
             })
 
             error?.observe(this@MainActivity, Observer {

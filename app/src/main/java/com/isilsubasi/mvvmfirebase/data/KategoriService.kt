@@ -12,7 +12,7 @@ interface KategoriService {
 
     //https://raw.githubusercontent.com/isilsubasi/MVVMFirebase/main/arabalar.json
     @GET("arabalar.json")
-    suspend fun kategorileriGetir(): Response<Kategoriler>
+    suspend fun kategorileriGetir(): Response<List<KategoriItem>>
 
     companion object  {
 
